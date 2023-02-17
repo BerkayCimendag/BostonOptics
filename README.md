@@ -2,6 +2,12 @@
 
 A Sample N-layered .NET CORE Project Demonstrating Clean Architecture and the Generic Repository Pattern.
 
+## Packages Installed
+
+### Application Core
+```
+Install-Package Ardalis.Specification 
+```
 
 ## Useful Links
 ### Documentation
@@ -12,4 +18,6 @@ A Sample N-layered .NET CORE Project Demonstrating Clean Architecture and the Ge
 
 ### E-book
 * https://aka.ms/webappebook
+
+
 
