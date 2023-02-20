@@ -18,7 +18,7 @@ namespace Infrastructure.Data.Config
             builder.Property(x=>x.Price).IsRequired().HasPrecision(18,2);
 
             builder.Property(x=>x.PictureUri).IsRequired(false);
-
+                        
             builder.HasOne(x => x.Category).WithMany().HasForeignKey(x=>x.CategoryId);
 
             builder.HasOne(x => x.Brand).WithMany().HasForeignKey(x=>x.BrandId);

@@ -2,6 +2,17 @@
 
 A Sample N-layered .NET CORE Project Demonstrating Clean Architecture and the Generic Repository Pattern.
 
+## Migrations
+
+### Infrastructure
+Firstly,Set the project "Web" as startup project.
+Secondly, choose infrastructure on Package Manager Console .
+```
+Add-Migration InitialCreate -context ShopContext -o Data/Migrations 
+Update-Database -context ShopContext
+```
+
+
 ## Packages Installed
 
 ### Application Core
