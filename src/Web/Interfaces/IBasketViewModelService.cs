@@ -11,5 +11,7 @@ namespace Web.Interfaces
 
         Task UpdateBasketAsync(Dictionary<int, int> quantities);
         Task TransferBasketIfNecessary();
+
+        Task CheckoutAsync(string street,string city, string? state,string country ,string zipCode);
     }
 }
