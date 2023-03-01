@@ -31,6 +31,10 @@ Install-Package Microsoft.EntityFrameworkCore.Design -v 6.0.14
 ```
 Install-Package Ardalis.Specification 
 ```
+### UnitTests
+```
+Install-Package Moq
+```
 ### Infrastructure
 ```
 Install-Package Microsoft.EntityFrameworkCore -v 6.0.14
